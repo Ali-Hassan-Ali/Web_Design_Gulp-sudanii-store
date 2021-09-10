@@ -1,0 +1,204 @@
+@import "../Bootstrap/functions";
+@import "../Bootstrap/variables";
+@import "pages/login";
+@import "pages/cart";
+@import "pages/loade";
+
+body {
+    background-color: $black;
+    font-family: 'Cairo', sans-serif;
+
+    // overflow: hidden;
+    margin-bottom: 10000px;
+    //overflow: hidden;
+    font-size: 1em;
+}
+
+.fw-300 {
+    font-size: 60px
+}
+
+.fw-500 {
+    font-size: 30px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+.bordering {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.border-tabil {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.border-button {
+    border-radius: 15px;
+    border: solid #fff 1px;
+}
+
+.border-input {
+    border: solid #fff 2px;
+}
+
+.border-10 {
+    border-radius: 15px;
+    background-color: #2D2D2D;
+}
+
+.border-input-10 {
+    border-radius: 20px;
+    color: #fff;
+    border: solid#fff 2px;
+}
+
+.border-none {
+    border-radius: 0px;
+}
+
+.fs-300 {
+    font-size: 21px;
+}
+
+img {
+    // border-radius: 10%;
+}
+
+
+/*end of body*/
+
+#banner {
+    .active {
+        border-bottom: solid #fff;
+        color: #263980;
+        transition: all 1.1s;
+    }
+    /*class active*/
+    .navbar {
+        background-color: #096898;
+        padding: 0;
+        font-size: 15px;
+        .navbar-brand {
+            //font-size: 37px;
+            padding: 0;
+        }
+        .nav-link:hover {
+            background: $danger;
+            color: #fff;
+            padding: 17px 8px 16px 8px;
+            transition: all 1.1s;
+        }
+        .nav-link {
+            color: #fff;
+            padding: 17px 8px 16px 8px;
+        }
+        .dropdown-menu {
+            background: $black;
+            padding: 0;
+            margin-top: 0px;
+        }
+        .dropdown-item {
+            color: white;
+        }
+        .dropdown-item:hover {
+            background: $danger;
+            transition: all 1.1s;
+        }
+    }
+    /*end of navbar*/
+}
+
+
+/*end of banner*/
+
+#slider {
+    .bg_slider {
+        background-image: url("../../dist/images/bg-slider.jpg");
+        width: 100%;
+    }
+}
+
+
+/*end of slider*/
+
+#OwlCarouse {
+    background-color: #4A4848;
+    padding: 100px 0 100px 0;
+    .category__name {
+        margin-bottom: 10px;
+    }
+    .item {
+        &:hover img {
+            opacity: .6;
+        }
+        &:hover .item__details {
+            opacity: 1;
+        }
+        .item__details {
+            position: absolute;
+            left: 30px;
+            right: 30px;
+            bottom: 9rem;
+            top: 7rem;
+            opacity: 0;
+            transition: all .7s ease-in;
+        }
+        transition: 0.5s;
+    }
+    //end of item class
+    .item:hover {
+        transform: scale(1.1);
+        transition: all .4s ease-in;
+    }
+}
+
+//end of owl id
+#Our-Service {
+    .card-title {
+        border-bottom: solid #733838 12px;
+        padding-bottom: 10px;
+    }
+    .card {
+        background: #2277b8;
+    }
+}
+
+
+/*end of Our-Service*/
+
+#service {
+    .ser {
+        padding-top: 50px;
+    }
+    .container {
+        padding-bottom: 50px;
+    }
+}
+
+//end of services
+#footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    .img {
+        width: 50px;
+        display: inline-block;
+    }
+}
+
+
+/*end of footer*/
+
+#social {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: $dark;
+}
+
+
+/*end of social*/
