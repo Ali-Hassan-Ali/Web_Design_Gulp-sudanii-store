@@ -3,13 +3,14 @@
 @import "pages/login";
 @import "pages/cart";
 @import "pages/loade";
+@import "pages/social";
 
 body {
     background-color: $black;
     font-family: 'Cairo', sans-serif;
 
     // overflow: hidden;
-    margin-bottom: 10000px;
+    // margin-bottom: 10000px;
     //overflow: hidden;
     font-size: 1em;
 }

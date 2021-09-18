@@ -13,7 +13,7 @@ $("document").ready(function() {
     });
 
     //nice Scroll
-    // $("html").niceScroll({ interval: 11e3 }); /*end of nice Scroll*/
+    // $("html").niceScroll({ interval: 1e3 }); /*end of nice Scroll*/
 
     $(document).ready(function() {
         $(".skitter-large").skitter({numbers: !0, dots: !1});
