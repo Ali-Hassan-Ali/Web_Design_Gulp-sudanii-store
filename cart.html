@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sudan Game</title>
+    <!--Link Icon Title-->
+    <link href="./dist/images/logo.png" rel="icon">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="dist/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+
+    <!--font google-->
+    <link href=" https://fonts.googleapis.com/css?family=Cairo:400,700" rel="stylesheet">
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+
+    <!-- vendor min  css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/vendor.min.css">
+
+    <!-- min styles -->
+    <link rel="stylesheet" type="text/css" href="dist/css/min.min.css">
+
+    <!-- font arbic -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic"> -->
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <div class="container-fluid container-sm">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./dist/images/logo.png" width="50" style="background: ;">
+            </a>
+            <a class="text-white" href="#">
+                <div class="dropdown">
+
+                    <span class="fa-stack fa-2x has-badge" data-count="5" style="display: block;">
+                          <i class="fa fa-circle fa-stack-1x"></i>
+                          <i style="" class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
+                    </span>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown my-0">
+                        <li>
+                            <a class="dropdown-item py-3" href="#">
+                                <img src="./dist/images/product-1.jpg" width="50">
+                                1 X 100
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item py-3" href="#">
+                                <img src="./dist/images/product-1.jpg" width="50">
+                                1 X 100
+                            </a>
+                        </li>
+                        <li class="text-center"><span class="bg-danger d-block text-white py-2 my-3"> Totle : 200</span></li>
+                        <li class="text-center">
+                            <a href="" class="btn btn-danger btm-sm py-1 col-5"><i class="fa fa-shopping-cart"></i></a>
+                            <a href="" class="btn btn-outline-danger btm-sm py-1 col-5"><i class="fa fa-money"></i></a>
+                        </li>
+                    </ul>
+
+                </div> 
+            </a>
+            <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-self-baseline" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active" aria-current="page" href="#">الرئسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">الوكلاء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#product">البطاقات</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <form class="d-flex">
+                            <input class="form-control me-2 bg-transparent text-dark" type="search" placeholder="Search" aria-label="Search">
+                        </form>
+                    </li>
+                </ul>
+                <ul class="navbar-nav my-auto mb-2 mb-lg-0 d-flex justify-content-evenly">
+                    <a href="" class="btn btn-danger mx-2"><i class="fa fa-sign-in"></i></a>
+                    <a href="" class="btn btn-outline-danger mx-2"><i class="fa fa-user-plus"></i></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="cart" class="py-4 text-center text-white bg-dark">
+        <h2 class=" text-white py-5">الســـــــــــــــــــلة</h2>
+        <div class="container-md mt-5 mb-5">
+            <div class="d-flex justify-content-center row">
+                <div class="col-md-8">
+                    <div class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded">
+                        <div class="mr-1"><img class="rounded" src="./dist/images/product-1.jpg" width="70"></div>
+                        <div class="d-flex flex-column align-items-center product-details"><span class="font-weight-bold">Basic T-shirt</span>
+                            <div class="d-flex flex-row product-desc">
+                                <div class="size mr-1"><span class="text-grey">Size:</span><span class="font-weight-bold">&nbsp;M</span></div>
+                                <div class="color"><span class="text-grey">Color:</span><span class="font-weight-bold">&nbsp;Grey</span></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center qty"><i class="fa fa-minus text-danger"></i>
+                            <h5 class="text-grey mt-1 mr-1 ml-1">2</h5><i class="fa fa-plus text-success"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-grey">$20.00</h5>
+                        </div>
+                        <div class="d-flex align-items-center"><i class="fa fa-trash mb-1 text-danger"></i></div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded">
+                        <div class="mr-1"><img class="rounded" src="./dist/images/product-1.jpg" width="70"></div>
+                        <div class="d-flex flex-column align-items-center product-details"><span class="font-weight-bold">Basic T-shirt</span>
+                            <div class="d-flex flex-row product-desc">
+                                <div class="size mr-1"><span class="text-grey">Size:</span><span class="font-weight-bold">&nbsp;M</span></div>
+                                <div class="color"><span class="text-grey">Color:</span><span class="font-weight-bold">&nbsp;Grey</span></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center qty"><i class="fa fa-minus text-danger"></i>
+                            <h5 class="text-grey mt-1 mr-1 ml-1">2</h5><i class="fa fa-plus text-success"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-grey">$20.00</h5>
+                        </div>
+                        <div class="d-flex align-items-center"><i class="fa fa-trash mb-1 text-danger"></i></div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded">
+                        <div class="mr-1"><img class="rounded" src="./dist/images/product-1.jpg" width="70"></div>
+                        <div class="d-flex flex-column align-items-center product-details"><span class="font-weight-bold">Basic T-shirt</span>
+                            <div class="d-flex flex-row product-desc">
+                                <div class="size mr-1"><span class="text-grey">Size:</span><span class="font-weight-bold">&nbsp;M</span></div>
+                                <div class="color"><span class="text-grey">Color:</span><span class="font-weight-bold">&nbsp;Grey</span></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center qty"><i class="fa fa-minus text-danger"></i>
+                            <h5 class="text-grey mt-1 mr-1 ml-1">2</h5><i class="fa fa-plus text-success"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-grey">$20.00</h5>
+                        </div>
+                        <div class="d-flex align-items-center"><i class="fa fa-trash mb-1 text-danger"></i></div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-between align-items-center p-2 bg-white mt-4 px-3 rounded">
+                        <div class="mr-1"><img class="rounded" src="./dist/images/product-1.jpg" width="70"></div>
+                        <div class="d-flex flex-column align-items-center product-details"><span class="font-weight-bold">Basic T-shirt</span>
+                            <div class="d-flex flex-row product-desc">
+                                <div class="size mr-1"><span class="text-grey">Size:</span><span class="font-weight-bold">&nbsp;M</span></div>
+                                <div class="color"><span class="text-grey">Color:</span><span class="font-weight-bold">&nbsp;Grey</span></div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center qty"><i class="fa fa-minus text-danger"></i>
+                            <h5 class="text-grey mt-1 mr-1 ml-1">2</h5><i class="fa fa-plus text-success"></i>
+                        </div>
+                        <div>
+                            <h5 class="text-grey">$20.00</h5>
+                        </div>
+                        <div class="d-flex align-items-center"><i class="fa fa-trash mb-1 text-danger"></i></div>
+                    </div>
+                    <div class="d-flex flex-row align-items-center mt-3 p-2 bg-white rounded"><input type="text" class="form-control border-0 gift-card" placeholder="discount code/gift card"><button class="btn btn-outline-warning btn-sm ml-2" type="button">Apply</button></div>
+                    <div class="d-flex flex-row align-items-center mt-3 p-2 bg-white rounded"><button class="btn btn-warning btn-block btn-lg ml-2 pay-button" type="button">Proceed to Pay</button></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="footer" class="bg-danger py-5">
+        <div class="container-sm">
+            <div class="d-flex justify-content-center">
+                <ul>
+                    <li><span class="social-icon social-facebook row"><i class="fa fa-facebook"></i></span></li>
+                    <li><span class="social-icon social-google row"><i class="fa fa-google"></i></span></li>
+                    <li><span class="social-icon social-linkedin"><i class="fa fa-linkedin"></i></span></li>
+                    <li><span class="social-icon social-instagram"><i class="fa fa-instagram"></i></span></li>
+                    <li><span class="social-icon social-twitter"><i class="fa fa-twitter"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="dist/js/jquery-3.3.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- vendor  js -->
+    <script src="dist/js/vendor.min.js"></script>
+
+    <!-- min scripts -->
+    <script src="dist/js/main.min.js"></script>
+
+</body>
